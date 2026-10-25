@@ -1,0 +1,5 @@
+option('kern_root', type: 'string', value: '../CactKernel-x86_32',
+  description: 'Kernel source tree holding Cact/ headers, relative to this repo or absolute')
+
+option('local_repo', type: 'string', value: '../LocalRepoCactOS-x86_32',
+  description: 'LocalRepoCactOS root whose lib/ receives the .cctk, relative or absolute')
